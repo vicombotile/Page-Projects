@@ -1,0 +1,11 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.panel {
+    padding: 10px;
+    border-radius: 35px;
+    border: none;
+    background-color: rgb(30, 30, 30);
+}

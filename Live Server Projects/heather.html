@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles/plants.css"/>
+        <title>Flowers</title>
+    </head>
+    <body>
+        <script src="scripts/pollen.js"></script>
+        <script src="jquery-3.7.1.min.js"></script>
+        <div class="container">
+            <img src="flowr.png" style="width: 500px; height: 500px;"/>
+        </div>
+        <div style="align-items: center;" class="panel">
+            <button onclick="addFx('sun')">Sunshine</button>
+            <button onclick="addFx('rain')">Rain</button>
+            <button onclick="addFx('ntr')">Nutrition</button>
+            <div>
+                <input id="sun" readonly value="1" />
+                <input id="rain" readonly value="1" />
+                <input id="ntr" readonly value="1" />
+            </div>
+        </div>
+    </body>
+</html>
