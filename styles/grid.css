@@ -1,0 +1,57 @@
+div.original {
+    width: 300px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  div.original button {
+    width: 100px;
+    height: 100px;
+    font-size: 60px;
+    margin: 5px;
+  }
+  
+  div.original button:hover {
+    background-color: #ddd;
+  }
+  
+  div.original button:active {
+    background-color: #ccc;
+  }
+  
+  div.original #1 {
+    border-top: none;
+    border-left: none; 
+  }
+  
+  div.original #2 {
+    border-top: none;
+  }
+  
+  div.original #3 {
+    border-top: none;
+    border-right: none;
+  }
+  
+  div.original #4 {
+    border-left: none;
+  }
+  
+  div.original #6 {
+    border-right: none; 
+  }
+  
+  div.original #7 {
+    border-left: none;
+    border-bottom: none;
+  }
+  
+  div.original #8 {
+    border-bottom: none;
+  }
+  
+  div.original #9 {
+    border-right: none;
+    border-bottom: none;
+  }
+  
